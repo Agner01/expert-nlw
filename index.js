@@ -1,109 +1,91 @@
 const perguntas = [
   {
-    pergunta: "O que é JavaScript?",
+    pergunta: "O que é a estética?",
     respostas: [
-      "Uma linguagem de programação para design gráfico",
-      "Uma linguagem de marcação para documentos web",
-      "Uma linguagem de programação para o desenvolvimento web",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
-    respostas: [
-      "v = 10;",
-      "var x = 10;",
-      "variavel = 10;",
+      "O estudo dos números",
+      "A filosofia da beleza e da arte",
+      "A análise de dados estatísticos",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual foi o álbum de estreia solo de Harry Styles?",
+    pergunta: "Quem é considerado o pai da estética moderna?",
     respostas: [
-      "Fine Line",
-      "Harry Styles",
-      "Dunkirk",
+      "Platão",
+      "Immanuel Kant",
+      "Aristóteles",
     ],
     correta: 1
   },
   {
-    pergunta: "Em qual filme Harry Styles fez sua estreia como ator?",
+    pergunta: "Qual é a definição correta de 'bela' na estética?",
     respostas: [
-      "Dunkirk",
-      "Harry Potter e a Pedra Filosofal",
-      "Inception",
+      "Subjetiva e variável de pessoa para pessoa",
+      "Universal e imutável",
+      "Relacionada apenas à arte visual",
     ],
     correta: 0
   },
   {
-    pergunta: "Como se refere a um bloco de código em JavaScript?",
+    pergunta: "O que é o sublime na estética?",
     respostas: [
-      "Conjunto",
-      "Grupo",
-      "Escopo",
+      "Beleza simples e clássica",
+      "Qualidade estética que inspira admiração e temor",
+      "Estilo artístico do Renascimento",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quem escreveu a obra 'Crítica da Faculdade do Juízo', que trata da estética?",
+    respostas: [
+      "Friedrich Nietzsche",
+      "Arthur Schopenhauer",
+      "Immanuel Kant",
     ],
     correta: 2
   },
   {
-    pergunta: "Qual função é usada para imprimir no console em JavaScript?",
+    pergunta: "O que é minimalismo na estética?",
     respostas: [
-      "print()",
-      "log()",
-      "console.log()",
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é uma função em JavaScript?",
-    respostas: [
-      "Um tipo de dado",
-      "Um bloco de código reutilizável",
-      "Um operador lógico",
+      "Um movimento artístico que utiliza muitas cores e formas",
+      "Uma abordagem que busca a simplicidade e a redução ao essencial",
+      "Um estilo barroco e ornamentado",
     ],
     correta: 1
   },
   {
-    pergunta: "O que é o DOM em JavaScript?",
+    pergunta: "Qual é o significado de 'arte contemporânea' na estética?",
     respostas: [
-      "Data Object Model",
-      "Document Object Model",
-      "Dynamic Operation Module",
+      "Arte criada no passado",
+      "Arte produzida no presente",
+      "Arte clássica e tradicional",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a maneira correta de comentar uma linha em JavaScript?",
+    pergunta: "O que é a teoria do formalismo na estética?",
     respostas: [
-      "// Comentário",
-      "/* Comentário */",
-      "' Comentário",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "O que é uma string em JavaScript?",
-    respostas: [
-      "Um número inteiro",
-      "Um tipo de dado para armazenar texto",
-      "Um operador de comparação",
+      "Enfatiza a importância do conteúdo emocional na arte",
+      "Foca na estrutura formal e técnica da obra de arte",
+      "Promove a expressão pessoal sem regras formais",
     ],
     correta: 1
   },
   {
-    pergunta: "Como você declara um loop 'for' em JavaScript?",
+    pergunta: "O que é o cubismo na estética?",
     respostas: [
-      "para (i = 0; i < 10; i++)",
-      "loop (i = 0; i < 10; i++)",
-      "for (i = 0; i < 10)",
+      "Um estilo artístico do Renascimento",
+      "Uma abordagem que retrata objetos tridimensionais de forma plana",
+      "Uma técnica de escultura em argila",
     ],
-    correta: 0
+    correta: 1
   },
   {
-    pergunta: "Qual é a diferença entre '==' e '===' em JavaScript?",
+    pergunta: "Qual é a relação entre estética e ética?",
     respostas: [
-      "Ambos são iguais em comparação",
-      "'===' compara apenas valores, '==' compara valores e tipos",
-      "'==' compara apenas valores, '===' compara valores e tipos",
+      "Não têm relação",
+      "São áreas completamente distintas",
+      "A estética está relacionada à percepção sensorial, enquanto a ética trata do comportamento moral",
     ],
     correta: 2
   },
